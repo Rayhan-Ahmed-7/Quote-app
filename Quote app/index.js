@@ -58,7 +58,7 @@ quoteCopy.addEventListener('click',copyText);
 
 //twitter post
 quoteTwitter.addEventListener('click',()=>{
-    let tweetUrl = `https://www.facebook.com/sharer/sharer.php?u="${quoteText.innerText}" __By ${quoteAuthor.innerText}`;
+    let tweetUrl = `https://twitter.com/intent/tweet?url="${quoteText.innerText}" __By ${quoteAuthor.innerText}`;
     window.open(tweetUrl,'_blank');
 })
 //https://twitter.com/intent/tweet?url=
